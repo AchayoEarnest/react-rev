@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 
 function HookThree() {
-  const [name, setName] = useState({ firstname: "", lastname: "" });
+
+  const nameData = { firstname: "", lastname: "" }
+  const [name, setName] = useState(nameData);
 
   return (
     <div>
@@ -9,7 +11,7 @@ function HookThree() {
         <input
           type="text"
           value={name.firstname}
-          onChange={(e) => setName({...name, firstname: e.target.value })}
+          onChange={(e) => setName({ ...name, firstname: e.target.value })}
         />
       </div>
 
@@ -17,7 +19,7 @@ function HookThree() {
         <input
           type="text"
           value={name.lastname}
-          onChange={(e) => setName({...name, lastname: e.target.value })}
+          onChange={(e) => setName({ ...name, lastname: e.target.value })}
         />
       </div>
 
