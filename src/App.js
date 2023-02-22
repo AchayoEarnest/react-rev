@@ -5,6 +5,7 @@ import HookCounter from "./components/HookCounter";
 import PrevCount from "./components/PrevCount";
 import HookThree from "./components/HookThree";
 import HookArray from "./components/HookArray";
+import EffectHook from "./EffectHook";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <HookThree />
       <HookArray />
       <HookThree /> */}
+      <EffectHook />
     </div>
   );
 }
