@@ -6,6 +6,7 @@ import PrevCount from "./components/PrevCount";
 import HookThree from "./components/HookThree";
 import HookArray from "./components/HookArray";
 import EffectHook from "./EffectHook";
+import UseEffectHook2 from "./components/UseEffectHook2";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       <HookThree />
       <HookArray />
       <HookThree /> */}
-      <EffectHook />
+      {/* <EffectHook /> */}
+      <UseEffectHook2 />
     </div>
   );
 }
