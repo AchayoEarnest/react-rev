@@ -7,6 +7,8 @@ import HookThree from "./components/HookThree";
 import HookArray from "./components/HookArray";
 import EffectHook from "./EffectHook";
 import UseEffectHook2 from "./components/UseEffectHook2";
+import DataFetching from "./components/DataFetching";
+import FetchId from "./components/FetchId";
 
 function App() {
   return (
@@ -18,7 +20,9 @@ function App() {
       <HookArray />
       <HookThree /> */}
       {/* <EffectHook /> */}
-      <UseEffectHook2 />
+      {/* <UseEffectHook2 /> */}
+      {/* <DataFetching /> */}
+      <FetchId />
     </div>
   );
 }
